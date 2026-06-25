@@ -8,7 +8,18 @@ public class ACT1 : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
         PublicIncludePaths.AddRange(new string[] { "ACT1" });
-        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "Niagara", "NavigationSystem" });
+		PublicDependencyModuleNames.AddRange(new string[] 
+		{ 
+			"Core", 
+			"CoreUObject", 
+			"Engine", 
+			"GameplayTags",
+			"InputCore", 
+			"EnhancedInput", 
+			"Niagara", 
+			"NavigationSystem",
+			"CrystalRecoil"
+		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

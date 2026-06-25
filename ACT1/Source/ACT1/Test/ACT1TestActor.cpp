@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "ACT1/Test/ACT1TestActor.h"
+#include "Test/ACT1TestActor.h"
 
 // Sets default values
 AACT1TestActor::AACT1TestActor()
